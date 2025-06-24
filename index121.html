@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europa Universalis IV - Українська Спільнота</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-eu4-dark sticky-top shadow">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-eu4-gold" href="#">
+            <img src="EU4_icon.png" alt="Baza Universalis Logo" class="navbar-logo me-2"> Baza Universalis
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-eu4-gold active nav-link-with-icon" href="#home-section">
+                        <img src="Tab_domestic_government.png" alt="Головна" class="nav-icon"> Головна
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-eu4-gold nav-link-with-icon" href="#about-game-section">
+                        <img src="Attitude_unknown.png" alt="Про гру" class="nav-icon"> Про гру
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-eu4-gold nav-link-with-icon" href="#guides-section">
+                        <img src="Tab_domestic_estates.png" alt="Гайди" class="nav-icon"> Гайди
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-eu4-gold nav-link-with-icon" href="#community-section">
+                        <img src="Diplomat.png" alt="Спільнота" class="nav-icon"> Спільнота
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-eu4-gold nav-link-with-icon" href="#contact-section">
+                        <img src="Personality_icon_colonialist.png" alt="Контакти" class="nav-icon"> Контакти
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="home-section" class="hero-section d-flex align-items-center text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-4 font-cinzel text-eu4-gold-heading">Ласкаво просимо до спільноти Europa Universalis IV!</h1>
+        <div class="heading-line-gold"></div>
+        <div id="eu4Carousel" class="carousel slide mx-auto mb-5" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#eu4Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#eu4Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#eu4Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel1.jpg" class="d-block w-100 carousel-eu4-img" alt="Зображення EU4 1">
+                    <div class="carousel-caption d-none d-md-block text-shadow-dark">
+                        <h5>Зануртесь у світ стратегії</h5>
+                        <p>Керуйте будь-якою нацією світу з 1444 до 1821 року.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel2.jpg" class="d-block w-100 carousel-eu4-img" alt="Зображення EU4 2">
+                    <div class="carousel-caption d-none d-md-block text-shadow-dark">
+                        <h5>Будуйте свою імперію</h5>
+                        <p>Дипломатія, війна, торгівля – все у ваших руках.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel3.jpg" class="d-block w-100 carousel-eu4-img" alt="Зображення EU4 3">
+                    <div class="carousel-caption d-none d-md-block text-shadow-dark">
+                        <h5>Перепишіть історію</h5>
+                        <p>Кожне ваше рішення має наслідки для майбутнього.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#eu4Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eu4Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <p class="lead mb-5 text-eu4-gold">Тут ви знайдете все, що потрібно для глибокого занурення у світ глобальної стратегії.</p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="#guides-section" class="btn btn-lg btn-eu4-primary btn-with-icon">
+                <img src="Obj_universities.png" alt="Навчання" class="btn-icon me-2"> Розпочати навчання
+            </a>
+            <a href="https://store.steampowered.com/app/236850/Europa_Universalis_IV/" target="_blank" class="btn btn-lg btn-eu4-steam-lighter btn-with-icon">
+                <img src="logosteam.png" alt="Steam Logo" class="steam-logo-larger me-2"> Встановити гру
+            </a>
+        </div>
+    </div>
+</header>
+
+<section id="about-game-section" class="about-game-section d-flex align-items-center text-white py-5">
+    <div class="container text-center">
+        <h2 class="mb-5 font-cinzel text-eu4-gold text-shadow-dark">Про Europa Universalis IV</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <p class="about-section-text text-shadow-dark mb-4">Europa Universalis IV (EU4) — це глобальна стратегія від Paradox Development Studio,
+                що дозволяє переписати історію, керуючи будь-якою нацією світу з 1444 по 1821 рік. Це не просто гра, а справжній історичний симулятор,
+                де кожне ваше рішення має вагомі наслідки.</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-4 mb-4">
+                        <h5 class="about-section-subtitle text-eu4-gold text-shadow-dark mb-3">
+                            <i class="fas fa-seedling me-2"></i><strong>Початок гри: Зерно імперії</strong>
+                        </h5>
+                        <p class="about-section-text text-shadow-dark">Обирайте будь-яку націю у 1444 році та розпочніть свій шлях до світового домінування.
+                        Кожна нація має унікальні ідеї, традиції та стартові позиції, що визначають ваш шлях.
+                        Від скромної провінції до майбутньої імперії – все у ваших руках.</p>
+                        <img src="Age_of_Discovery.png" alt="Початок гри" class="about-section-image">
+                    </div>
+
+                    <div class="col-md-8 col-lg-4 mb-4">
+                        <h5 class="about-section-subtitle text-eu4-gold text-shadow-dark mb-3">
+                            <i class="fas fa-crown me-2"></i><strong>Середина гри: Розквіт та виклики</strong>
+                        </h5>
+                        <p class="about-section-text text-shadow-dark">Керуйте нацією у всіх аспектах: дипломатія (союзи, шлюби, коаліції), економіка (торгівля, мануфактури), та військові кампанії.
+                        Колонізація Нового Світу відкриває нові можливості. Розвивайте технології та ідеї, роблячи вибір,
+                        що впливає на релігію та внутрішню політику вашої держави.</p>
+                        <img src="Obj_emperor.png" alt="Середина гри" class="about-section-image">
+                    </div>
+
+                    <div class="col-md-8 col-lg-4 mb-4">
+                        <h5 class="about-section-subtitle text-eu4-gold text-shadow-dark mb-3">
+                            <i class="fas fa-flag-checkered me-2"></i><strong>Кінець гри: Спадщина або занепад</strong>
+                        </h5>
+                        <p class="about-section-text text-shadow-dark">До 1821 року світ кардинально змінюється.
+                        Ваша нація може стати домінуючою світовою імперією або зникнути з карти. EU4 – це унікальна гра з непередбачуваними подіями та безмежною реграбельністю завдяки численним DLC.
+                        Вона не лише розважає, а й спонукає до вивчення історії.</p>
+                        <img src="Age_of_Revolutions.png" alt="Кінець гри" class="about-section-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="guides-section" class="py-5 guides-background-section">
+    <div class="container text-eu4-dark-text">
+        <h2 class="mb-5 font-cinzel text-eu4-gold text-shadow-dark">Гайди та Лайфхаки</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="Kingdom_of_God.png" class="card-icon mb-3" alt="Поради для початківців">
+                        <h5 class="card-title text-eu4-gold">Поради для початківців</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">Як почати грати та не розгубитися.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3496714388" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="Doge_Coins.png" class="card-icon mb-3" alt="Ефективна торгівля">
+                        <h5 class="card-title text-eu4-gold">Ефективна торгівля</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">Як максимізувати прибутки від торгівлі.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3496750806" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="Early-Modern_Warfare.png" class="card-icon mb-3" alt="Військові стратегії">
+                        <h5 class="card-title text-eu4-gold">Військові стратегії</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">Як перемагати у війнах.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3496773332" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="A_Golden_Empire.png" class="card-icon mb-3" alt="Кращі країни для початку">
+                        <h5 class="card-title text-eu4-gold">Кращі країни для початку</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">З яких націй краще розпочати свою імперію.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3496714388" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="Guarantor_of_Peace.png" class="card-icon mb-3" alt="Правильна дипломатія">
+                        <h5 class="card-title text-eu4-gold">Правильна дипломатія</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">Основи відносин та альянсів у грі.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3497030503" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 card-hover-effect bg-eu4-card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="Get_out_of_my_swamp!.png" class="card-icon mb-3" alt="Корисні моди">
+                        <h5 class="card-title text-eu4-gold">Корисні моди</h5>
+                        <p class="card-text text-eu4-text flex-grow-1">Розширюємо можливості гри за допомогою модифікацій.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3497038021" target="_blank" class="btn btn-eu4-primary mt-auto">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="community-section" class="py-5 text-center">
+    <div class="container">
+        <h2 class="mb-5 font-cinzel text-eu4-gold text-shadow-dark">Українське EU4 Ком'юніті</h2>
+        <p class="lead mb-5 text-eu4-light-text text-shadow-dark">Приєднуйтесь до нашої дружньої спільноти!</p>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 card-hover-effect bg-eu4-card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <div class="community-card-image-container mb-3">
+                            <img src="Foul_Mouthed.png" alt="Discord" class="community-card-image">
+                        </div>
+                        <h5 class="card-title text-eu4-gold"><i class="fab fa-discord me-2"></i>Discord-сервер</h5>
+                        <p class="card-text text-eu4-text">Приєднуйтесь до живого спілкування.</p>
+                        <a href="https://discord.gg/bnuaCA4A" target="_blank" class="btn btn-eu4-primary mt-auto">Приєднатись</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 card-hover-effect bg-eu4-card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <div class="community-card-image-container mb-3">
+                            <img src="Multiculturalism.png" alt="Форум" class="community-card-image">
+                        </div>
+                        <h5 class="card-title text-eu4-gold"><i class="fas fa-comments me-2"></i>Форум Спільноти</h5>
+                        <p class="card-text text-eu4-text">Діліться своїми стратегіями.</p>
+                        <a href="https://steamcommunity.com/app/236850/discussions/?l=russian" target="_blank" class="btn btn-eu4-primary mt-auto">Перейти на форум</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 card-hover-effect bg-eu4-card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <div class="community-card-image-container mb-3">
+                            <img src="Global_Hegemony.png" alt="YouTube" class="community-card-image">
+                        </div>
+                        <h5 class="card-title text-eu4-gold"><i class="fab fa-youtube me-2"></i>YouTube Канали</h5>
+                        <p class="card-text text-eu4-text">Дивіться українських стрімерів.</p>
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3497060356" target="_blank" class="btn btn-eu4-primary mt-auto">Дивитись відео</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-section" class="py-5 bg-eu4-dark text-white text-center">
+    <div class="container">
+        <h2 class="mb-4 font-cinzel text-eu4-gold">Зв'яжіться з нами</h2>
+        <p class="lead mb-4 text-eu4-light-text">Маєте питання? Зв'яжіться з нами!</p>
+        <p class="fs-4"><i class="fas fa-envelope me-3 text-eu4-gold"></i>Email: <a class="text-eu4-gold text-decoration-none">illia.11baza@gmail.com</a></p>
+    </div>
+</section>
+
+<footer class="bg-eu4-dark text-white py-4 text-center">
+    <div class="container">
+        <p class="mb-0 text-eu4-light-text">&copy; 2025 Baza Universalis.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
